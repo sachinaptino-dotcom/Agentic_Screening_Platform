@@ -8,6 +8,8 @@ Local-only AI-powered ATS with FastAPI, PostgreSQL, FAISS, LangGraph, and Next.j
    - `createdb ats_db`
 2. Backend:
    - `cd backend`
+   - `python -m venv venv`
+   - venv\scripts\activate
    - `pip install -r requirements.txt`
    - `alembic upgrade head`
    - `python seed.py`
